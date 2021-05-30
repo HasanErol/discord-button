@@ -21,7 +21,7 @@ client.on("message", async (message) => {
 });
 
 client.on('clickButton', async (button) => {
-    if (button.id === 'Button') { // You must enter the button ID in the 'Button' section.
+    if (button.id === 'Button') { // You must enter the button ID in the 'Button' sections.
         if (button.clicker.member.roles.cache.get("Roles ID")) {
             await button.clicker.member.roles.remove("Roles ID")
             button.defer(true)
