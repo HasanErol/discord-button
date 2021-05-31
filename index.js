@@ -35,4 +35,4 @@ client.on('clickButton', async (button) => {
 });
 
 
-client.login(config.token)
+client.login("TOKEN")
